@@ -9,6 +9,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcachedTest", "MemcachedT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTest", "RedisTest\RedisTest.csproj", "{D9AD0529-DF65-4F43-B96F-BFBBA2F315FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickCountByRedis", "ClickCountByRedis\ClickCountByRedis.csproj", "{72EE299F-23D0-4BDC-A2BE-63757513F15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisListTest", "RedisListTest\RedisListTest.csproj", "{D07750CE-0BA0-4EE2-BB3A-24C2A61AE917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListServerByRedis", "ListServerByRedis\ListServerByRedis.csproj", "{B8340F0D-AC60-4B27-BA25-BA6EC7076B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListClientByRedis", "ListClientByRedis\ListClientByRedis.csproj", "{2557C15D-98EB-49C5-AA89-C5BD81D44CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSetTest", "RedisSetTest\RedisSetTest.csproj", "{0F8F7B8C-A564-40ED-A69E-09DDDD456472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSortedSetTest", "RedisSortedSetTest\RedisSortedSetTest.csproj", "{B27052AD-682F-4468-9A28-243E3ECB8C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSortedSetDemo_HotSearch", "RedisSortedSetDemo\RedisSortedSetDemo_HotSearch.csproj", "{541C64D0-6C47-4DFB-A19B-059AD9543C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisGeoTest", "RedisGeoTest\RedisGeoTest.csproj", "{2AF588F0-A847-445E-8794-48DA64AE7F7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisLock", "RedisLock\RedisLock.csproj", "{A52F7BBF-97D3-4C22-8E07-481CCFA687D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisRedBagMethod", "RedisRedBagMethod\RedisRedBagMethod.csproj", "{FF86173B-397B-4008-B1E4-491F04E626AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisRobRedBagDemo", "RedisRobRedBagDemo\RedisRobRedBagDemo.csproj", "{9862F9F7-E731-4AA5-8DFD-782A5668D252}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +49,50 @@ Global
 		{D9AD0529-DF65-4F43-B96F-BFBBA2F315FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9AD0529-DF65-4F43-B96F-BFBBA2F315FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9AD0529-DF65-4F43-B96F-BFBBA2F315FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EE299F-23D0-4BDC-A2BE-63757513F15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EE299F-23D0-4BDC-A2BE-63757513F15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EE299F-23D0-4BDC-A2BE-63757513F15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EE299F-23D0-4BDC-A2BE-63757513F15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07750CE-0BA0-4EE2-BB3A-24C2A61AE917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07750CE-0BA0-4EE2-BB3A-24C2A61AE917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07750CE-0BA0-4EE2-BB3A-24C2A61AE917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07750CE-0BA0-4EE2-BB3A-24C2A61AE917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8340F0D-AC60-4B27-BA25-BA6EC7076B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8340F0D-AC60-4B27-BA25-BA6EC7076B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8340F0D-AC60-4B27-BA25-BA6EC7076B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8340F0D-AC60-4B27-BA25-BA6EC7076B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2557C15D-98EB-49C5-AA89-C5BD81D44CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2557C15D-98EB-49C5-AA89-C5BD81D44CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2557C15D-98EB-49C5-AA89-C5BD81D44CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2557C15D-98EB-49C5-AA89-C5BD81D44CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8F7B8C-A564-40ED-A69E-09DDDD456472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8F7B8C-A564-40ED-A69E-09DDDD456472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8F7B8C-A564-40ED-A69E-09DDDD456472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8F7B8C-A564-40ED-A69E-09DDDD456472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27052AD-682F-4468-9A28-243E3ECB8C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27052AD-682F-4468-9A28-243E3ECB8C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27052AD-682F-4468-9A28-243E3ECB8C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27052AD-682F-4468-9A28-243E3ECB8C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541C64D0-6C47-4DFB-A19B-059AD9543C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541C64D0-6C47-4DFB-A19B-059AD9543C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541C64D0-6C47-4DFB-A19B-059AD9543C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541C64D0-6C47-4DFB-A19B-059AD9543C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF588F0-A847-445E-8794-48DA64AE7F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF588F0-A847-445E-8794-48DA64AE7F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF588F0-A847-445E-8794-48DA64AE7F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF588F0-A847-445E-8794-48DA64AE7F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52F7BBF-97D3-4C22-8E07-481CCFA687D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52F7BBF-97D3-4C22-8E07-481CCFA687D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52F7BBF-97D3-4C22-8E07-481CCFA687D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52F7BBF-97D3-4C22-8E07-481CCFA687D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF86173B-397B-4008-B1E4-491F04E626AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF86173B-397B-4008-B1E4-491F04E626AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF86173B-397B-4008-B1E4-491F04E626AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF86173B-397B-4008-B1E4-491F04E626AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9862F9F7-E731-4AA5-8DFD-782A5668D252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9862F9F7-E731-4AA5-8DFD-782A5668D252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9862F9F7-E731-4AA5-8DFD-782A5668D252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9862F9F7-E731-4AA5-8DFD-782A5668D252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

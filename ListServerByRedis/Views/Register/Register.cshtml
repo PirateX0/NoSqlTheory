@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>register</title>
+</head>
+<body>
+    <div>
+        <form action="~/Register/Register" method="post">
+            email: <input type="text" name="email" />
+            <input type="submit" value="register" />
+        </form>
+        <span>@ViewBag.Result</span>
+    </div>
+</body>
+</html>

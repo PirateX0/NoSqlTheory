@@ -1,0 +1,33 @@
+﻿@model StackExchange.Redis.SortedSetEntry[]
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <form action="~/Search/Search" method="post">
+            <input type="text" name="searchWord" />
+            <input type="submit" value="Search" />
+        </form>
+    </div>
+    hot words:
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                @item.Element : @item.Score
+            </li>
+        }
+
+    </ul>
+
+</body>
+</html>
